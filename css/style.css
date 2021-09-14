@@ -1,0 +1,86 @@
+/* обнуление */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+ul,
+ol,
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+/* ==== */
+
+.header * {
+	color: cornflowerblue;
+}
+
+.header > p {
+	color: hotpink;
+}
+
+.header a {
+	color: crimson;
+}
+.advicetext {
+	color: brown;
+}
+
+.advicetext .textgreen {
+	color: green;
+}
+
+.advicetext h2 {
+	color: blue;
+}
+
+.advicetext.textadvice {
+	color: red;
+} 
+
+.advicetext.textadvice span {
+	color: salmon;
+}
+#violet{
+	color: violet;
+}
+
+footer {
+	color: chocolate;
+}
+
+.footer ul {
+	color: green;
+}
+.list,.listdown{
+	color: greenyellow;
+}
+
+
